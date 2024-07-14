@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Project with Shadcn/UI, Dark Mode, and More
 
-## Getting Started
+## Description
 
-First, run the development server:
+This project sets up a new Next.js application with the following features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js**: A powerful React framework for building web applications.
+- **TypeScript**: Provides static typing for improved code quality and developer experience.
+- **ESLint**: Ensures code quality and consistency.
+- **Shadcn/UI**: UI components for building consistent and customizable UX.
+- **Dark Mode**: Seamless light and dark theme support using `next-themes`.
+- **Toast Notifications**: Provides non-intrusive feedback using `sonner`.
+- **Lucide React Icons**: A comprehensive set of icons for enhanced UI design.
+- **Responsive Design**: Ensures the application is usable on various screen sizes.
+- **Custom Pages**: Includes a home page, error page, and not-found page.
+- **HTTPS Development Server**: Provides secure local development.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone the repository**:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   git clone https://github.com/ladparth/next-starter-kit.git
+   cd next-starter-kit
+   ```
 
-## Learn More
+2. **Install dependencies**:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Run the development server**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+4. **Open your browser**:
+   Navigate to `https://localhost:3000` to see the application in action.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## How Has This Been Tested?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Ran the development server and verified all pages render correctly in both light and dark modes.
+- Tested responsive design on various screen sizes.
+- Verified HTTPS configuration for the development server.
+- Tested navigation between pages and error handling.
+- Verified toast notifications appear and function correctly in both light and dark modes.
+- Ensured Lucide React icons render properly and are consistent with the overall design.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ESLint](https://eslint.org/)
+- [Shadcn UI](https://ui.shadcn.com/)
+- [next-themes](https://github.com/pacocoursey/next-themes)
+- [sonner](https://sonner.emilkowal.ski/)
+- [Lucide React](https://lucide.dev/)
+
+---
+
+Feel free to clone, modify, and use this project as a starting point for your Next.js applications!
