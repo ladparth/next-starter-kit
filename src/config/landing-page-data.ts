@@ -48,6 +48,7 @@ export const landingPageData: LandingPageData = {
     { href: "#pricing", title: "Pricing" },
     { href: "#testimonials", title: "Testimonials" },
     { href: "#faq", title: "FAQ" },
+    { href: "#cta", title: "CTA" },
   ],
   platforms: [
     { name: "Facebook", icon: "/fb-icon.png" },
