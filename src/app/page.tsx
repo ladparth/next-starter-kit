@@ -63,7 +63,7 @@ export default function Home() {
             </div>
             <div>
               <Link
-                href="#cta"
+                href="/signup"
                 className={cn(
                   buttonVariants({ variant: "default" }),
                   "w-64 h-10"

@@ -21,7 +21,7 @@ export function useVisibleItem(itemIds: string[]) {
         setActiveId(activeItem || null);
       },
       {
-        rootMargin: `0% 0% -80% 0%`,
+        rootMargin: `0% 0% -60% 0%`,
         threshold: 0.1,
       }
     );
