@@ -57,7 +57,7 @@ export default function ForgotPasswordForm() {
     form.reset();
   }
 
-  if (form.formState.isSubmitted) {
+  if (form.formState.isSubmitSuccessful) {
     return (
       <Card className="mx-auto max-w-sm">
         <CardHeader>
